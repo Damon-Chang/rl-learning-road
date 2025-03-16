@@ -296,8 +296,10 @@ class DrunkenWalkEnv(DiscreteEnv):
         if mode != 'human':
             with closing(outfile):
                 return outfile.getvalue()
+'''
 if __name__ == "__main__":
     # env = DrunkenWalkEnv(map_name="walkInThePark")
     env = DrunkenWalkEnv(map_name="theAlley")
     n_states = env.observation_space.n
     n_actions = env.action_space.n
+'''
